@@ -1,0 +1,26 @@
+/* Declaring custom properties */
+* {
+  box-sizing: border-box;
+  border: thin solid ;
+}
+
+#header {
+  background-color: green;
+  color: white;
+}
+
+#menu {
+  background-color: white;
+  color: black;
+}
+
+#menu > ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+#menu > ul > li {
+  display: inline-block;
+  padding: 0.2em;
+}
