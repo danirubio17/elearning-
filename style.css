@@ -199,17 +199,16 @@ height: 70%;
 #cartas2 {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  margin-top: 80px;
 }
 
 .estudiantes img {
-  width: 350px;
-  height: 200px;
-  transform: translate(-33%, -0%);
+  width: 100%;
+  max-width: 100%;
+  margin-top: 60px;
 }
 
 .card-title-estudiantes {
-  text-align: center;
+  text-align: left;
   margin-top: 20px;
   color: black;
   font-weight: 200;
@@ -218,14 +217,71 @@ height: 70%;
 
 .card-subtitle-estudiantes {
   text-align: left;
-  margin-left: 140px;
   margin-top: 20px;
   color: gray;
 }
 
 .card-footer-estudiantes {
   text-align: left;
-  margin-left: 140px;
   margin-top: 20px;
   color: black;
+}
+
+.portatil img {
+  width: 100%;
+  max-width: 100%;
+  margin-top: 60px;
+  height: 342px;
+}
+
+.card-title-portatil {
+  text-align: left;
+  margin-top: 20px;
+  color: black;
+  font-weight: 200;
+  font-size: 20px;
+}
+
+.card-subtitle-portatil {
+  text-align: left;
+  margin-top: 20px;
+  color: gray;
+}
+
+.card-footer-portatil {
+  text-align: left;
+  margin-top: 20px;
+  color: black;
+}
+
+.foto3 img {
+  width: 100%;
+  max-width: 100%;
+  margin-top: 60px;
+}
+
+.card-title-foto3 {
+  text-align: left;
+  margin-top: 20px;
+  color: black;
+  font-weight: 200;
+  font-size: 20px;
+}
+
+.card-subtitle-foto3 {
+  text-align: left;
+  margin-top: 20px;
+  color: gray;
+}
+
+.card-footer-foto3 {
+  text-align: left;
+  margin-top: 20px;
+  color: black;
+}
+
+.container2 img {
+margin-top: 100px;
+max-width: 100%;
+width: 100%;
 }
