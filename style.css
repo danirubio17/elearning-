@@ -282,6 +282,69 @@ height: 70%;
 
 .container2 img {
 margin-top: 100px;
-max-width: 100%;
-width: 100%;
+width: 2000px;
+height: 400px;
+}
+
+.centered {
+  position: absolute;
+  top: 260%;
+  left: 40%;
+  color: white;
+  font-weight: 60;
+  font-size: 20px;
+}
+
+.debajo-centered {
+  position: absolute;
+  top: 266%;
+  left: 32%;
+  color: white;
+  font-weight: 70;
+  font-size: 50px;
+}
+
+.debajo-2 {
+  position: absolute;
+  top: 275%;
+  left: 37%;
+  color: white;
+  font-weight: 65;
+  font-size: 40px;
+}
+
+.btn {
+  border: none; /* Remove borders */
+  color: white; /* Add a text color */
+  padding: 14px 28px; /* Add some padding */
+  cursor: pointer; /* Add a pointer cursor on mouse-over */
+}
+
+.success {background-color: #04AA6D;} /* Green */
+.success:hover {background-color: #46a049;
+}
+
+.container2 .btn {
+  position: absolute;
+  top: 285%;
+  left: 45%;
+  background-color: ##00ff11;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.container .btn:hover {
+  background-color: black;
+}
+
+.titulo2 {
+  text-align: center;
+  margin-top: 130px;
+  color: #black;
+  font-weight: 400;
+  font-size: 40px;
 }
